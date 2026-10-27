@@ -1,2 +1,12 @@
-**/obj/**
-**/bin/**
+
+*.pt
+*.pth
+*.onnx
+*.bin
+*.pkl
+
+.venv/
+venv/
+__pycache__/
+*.csv
+*.zip
