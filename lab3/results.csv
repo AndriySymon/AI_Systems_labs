@@ -1,0 +1,15 @@
+section,model,setting,metric,value,extra
+3-minigpt,minigpt_v1,"vocab=4000,ctx=128,layers=4,heads=4",val_loss,3.6967,bpc=1.9699;params_M=5.24;time_s=323.2
+3-minigpt,minigpt_v2,"vocab=8000,ctx=128,layers=4,heads=4",val_loss,4.1986,bpc=1.9525;params_M=7.29;time_s=390.5
+3-minigpt,minigpt_v3,"vocab=4000,ctx=256,layers=4,heads=4",val_loss,3.5708,bpc=1.9028;params_M=5.27;time_s=753.1
+3-minigpt,minigpt_v4,"vocab=4000,ctx=128,layers=2,heads=4",val_loss,3.9029,bpc=2.0798;params_M=3.66;time_s=216.4
+3-minigpt,v1_eval50,eval_interval=50,time_s,534.5,vs eval_interval=250: 323.2
+5-sentiment,xlmr-twitter,"argmax(pos, neg)  [базово]",F1,0.9,accuracy=0.9
+5-sentiment,xlmr-twitter,поріг p(pos)=0.3,F1,0.9,accuracy=0.9
+5-sentiment,xlmr-twitter,поріг p(pos)=0.7,F1,0.9,accuracy=0.9
+5-sentiment,xlmr-twitter,argmax по 3 класах,F1,0.9,accuracy=0.9
+5-sentiment,distilmbert,"argmax(pos, neg) [базово]",F1,0.462,accuracy=0.65
+5-sentiment,nlptown-bert,"argmax(pos, neg) [базово]",F1,0.824,accuracy=0.85
+5-sentiment,xlmr-twitter,baseline,ms_per_sentence,10.6,params_M=278.0
+5-sentiment,distilmbert,baseline,ms_per_sentence,5.7,params_M=135.3
+5-sentiment,nlptown-bert,baseline,ms_per_sentence,11.6,params_M=167.4
