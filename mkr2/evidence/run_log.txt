@@ -1,0 +1,3 @@
+[2026-11-14 17:20:42] INPUT: sample_transcript.txt (2.1 KB) | MODEL: gemini-3-flash-preview | TIME: 15.4s | OUTPUT: sample_transcript_notes.md, sample_transcript_anki.csv
+[2026-11-15 17:04:10] INPUT: lecture_sample.mp4 (15578.0 KB) | MODEL: gemini-3.5-flash | TIME: 45.8s | OUTPUT: lecture_sample_notes.md, lecture_sample_anki.csv
+[2026-11-15 17:38:22] INPUT: sample_transcript.txt (2.1 KB) | MODEL: gemini-3.5-flash | TIME: 24.1s | OUTPUT: sample_transcript_notes.md, sample_transcript_anki.csv
